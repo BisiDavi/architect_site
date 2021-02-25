@@ -79,6 +79,11 @@ header {
   border: none;
   color: white;
   font-size: 30px;
+  cursor: pointer;
+}
+
+.footer button:hover {
+  opacity: 0.8;
 }
 
 .footer {
