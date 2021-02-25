@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./assets/css/index.css" rel="stylesheet" />
+    <link href="./assets/css/modal.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <script
       src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -36,6 +37,15 @@
           />
         </header>
         <main>
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span id="close">&times;</span>
+              <p>
+                Hello, Press A to move to FIRST PAGE & S to move to the SECOND
+                PAGE
+              </p>
+            </div>
+          </div>
           <div class="floorplan">
             <img src="/assets/images/602/floorplan.svg" alt="floorplan" />
             <div class="tag">
@@ -78,5 +88,6 @@
         </div>
       </div>
     </div>
+    <script src="/assets/js/modal.js"></script>
   </body>
 </html>

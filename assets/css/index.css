@@ -82,6 +82,10 @@ header {
   cursor: pointer;
 }
 
+#navigation {
+  display: none;
+}
+
 .footer button:hover {
   opacity: 0.8;
 }
